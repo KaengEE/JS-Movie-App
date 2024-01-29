@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <!-- 상단 영화 검색 부분 -->
+    <header>
+      <div class="app-title">
+        <span>Movie App</span>
+      </div>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="영화 검색" />
+      </form>
+    </header>
+    <div class="main-title">
+      <h3 class="small-title">Now playing...</h3>
+    </div>
+    <!-- 영화 이미지, 상세내용 -->
+    <main id="main"></main>
+
+    <div class="main-title">
+      <h3 class="small-title">Popular Movie</h3>
+    </div>
+    <!-- 인기 영화 -->
+    <main id="sub"></main>
+  </body>
+</html>
